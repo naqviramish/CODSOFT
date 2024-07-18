@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="",class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark fas" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+
+        </nav>
+
+        <div class="header-text">
+            <p>Web Developer!</p>
+            <h1>Hi, I'm <span>Ramish </span><br>from India!</h1>
+        </div>
+    </div>
+
+</div>
+<!----------------------about------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/InShot_20240625_235426030.jpg" class="img">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p class="about-para">
+                    Hi, I'm <span>Syed Ramish Naqvi!</span> I'm a begineer web developer from India. Currently I'm persuing
+                    B.tech in Artificial Intelligence from Noida Institute of Engineering and Technology,
+                    Greater Noida. I completed my Intermediate from Rana International School in 2023! 
+                </p>
+                
+                <div class="tab-titles">
+                    <div class="tab-links"><h2>Skills</h2><ul>
+                        <li>Front end web developer.</li>
+                        <li>React.js</li>
+                    </ul></div>
+                    <div class="tab-links"><h2>Education</h2> <ul>
+                        <li>B.tech Artificial Intelligence<br>2023-27.</li>
+                    </ul></div>
+                    <div class="tab-links"><h2>Certifications</h2><ul>
+                        <li>
+                            Web development Certificate<br>from Udemy.
+                        </li>
+                        <li>
+                            Programming in C<br>certificate from<br>Infosys.
+                        </li>
+                        <li>
+                            Basic Python certificate<br>from Infosys.
+                        </li>
+                        <li>Advanced Python certificate from Infosys</li>
+                    </ul></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ramishnaqvi12345@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9528673039</p>
+                
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ramish__naqvi/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ramish__naqvi!</p>
+    </div>
+</div>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
